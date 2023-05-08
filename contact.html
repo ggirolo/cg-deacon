@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+  <head>
+    <meta charset="UTF-8">
+    <title>George's Contact</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+      body {
+        background-color:tan;
+        
+      }
+      hr {
+        border-style: none;
+        border-top-style: dotted; 
+        border-width: 3px;
+        width: 60%;
+        color:maroon; 
+        margin: 0;
+      }
+      h3 {
+        font-size: 30px;
+      }
+      p {
+        font-size: 20px;
+      }
+      input {
+        height: 30px;
+        width: 300px;
+      }
+      textarea {
+        height: 150px;
+        width: 350px;
+      }
+      label {
+        font-size: 20px;
+      }
+    </style>
+  </head>
+  
+  <body>
+    <h3>For Any Comments:</h3>
+    <p>email: ggirolo@comcast.net<br>
+       Phone: 707-494-9035<br>
+       Address: 9 Windsor Lane, Petaluma 94952, USA
+    </p>
+    <br>
+    <hr>
+    <br>
+    <p>Or to send me an email directly use the form below:</p>
+    
+    <form action="mailto:ggirolo@comcast.net?subject=Msg for CG" method="post" enctype="text/plain">
+      <label>Your Name:</label>
+      <input type="text" name="yourname" value=""><br>
+      <label>Your Email:</label>
+      <input type="email" name="youremail"><br><br>
+      <label>Your Message to me:</label><br>
+      <textarea name="yourmsg" rows="10" cols="30"></textarea><br><br>
+      <input type="submit" name=""><br>
+    </form>
+  </body>
+</html>
+
